@@ -13,3 +13,6 @@ server.listen(port, hostname, () => {
     // start watching for connections on the port specified
     console.log(`Server running at http://${hostname}:${port}/`);
 });
+
+// always remember when building a server in order to successfully run and test it, you need to cd into the root folder and file otherwise ERROR
+
